@@ -29,8 +29,8 @@ Europeana’s dataset is categorised in images, texts, video, 3D objects, and so
 ## Queries
 We make 12.285 request from the Europeana dataset:
 *	Per year (1700-2015)
-*	*	per type of work (all types, images, texts)
-*	*	*	per pattern (13x)
+	*	per type of work (all types, images, texts)
+		*	per pattern (13x)
 
 ## Code
 The code in this repository is used to get the dataset described above. The code is written in Python 2.7.10 and outputs a CSV per data type. Please add your own API key.
