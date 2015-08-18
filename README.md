@@ -34,3 +34,6 @@ We make 12.285 request from the Europeana dataset:
 
 ## Code
 The code in this repository is used to get the dataset described above. The code is written in Python 2.7.10 and outputs a CSV per data type. Please add your own API key.
+
+## Data files
+Included are two data files generate in August 2015. These TSV are an outcome of this script.
