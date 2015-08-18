@@ -8,19 +8,19 @@ We request the number of search results per year in dc:date between 1700 up unti
 
 ## Patterns
 dc:date is a open text field. This means that it can be filled with all kinds of information. From only a year, to a date, to a whole sentence. We use a series of 13 patterns that help filter out only those objects that fit a certain year (YYYY):
-* The exact phrase YYYY
-* Phrases that starts with YYYY- to matchYYYY-DD-MM and YYYY-MM-DD, 
-* Phrases that ends with -YYYY to match DD-MM-YYYY and MM-DD-YYYY, 
-* The exact phrase "YYYY"
-* Phrases that starts with “YYYY-
-* Phrases that ends with -YYYY”
-* The exact phrase (YYYY)
-* Phrases that starts with (YYYY-
-* Phrases that ends with -YYYY)
-* The exact phrase  [YYYY]
-* Phrases that starts with [YYYY-
-* Phrases that ends with -YYYY]
-* The exact phrase YYYY.
+*	The exact phrase YYYY
+*	Phrases that starts with YYYY- to matchYYYY-DD-MM and YYYY-MM-DD, 
+*	Phrases that ends with -YYYY to match DD-MM-YYYY and MM-DD-YYYY, 
+*	The exact phrase "YYYY"
+*	Phrases that starts with “YYYY-
+*	Phrases that ends with -YYYY”
+*	The exact phrase (YYYY)
+*	Phrases that starts with (YYYY-
+*	Phrases that ends with -YYYY)
+*	The exact phrase  [YYYY]
+*	Phrases that starts with [YYYY-
+*	Phrases that ends with -YYYY]
+*	The exact phrase YYYY.
 More patterns can be used to add more data to our dataset, it is assumed that these patterns provide a representative overview of dates.
 
 ## Types of work
@@ -28,9 +28,9 @@ Europeana’s dataset is categorised in images, texts, video, 3D objects, and so
 
 ## Queries
 We make 12.285 request from the Europeana dataset:
-* Per year (1700-2015)
-** per type of work (all types, images, texts)
-*** per pattern (13x)
+*	Per year (1700-2015)
+*	*	per type of work (all types, images, texts)
+*	*	*	per pattern (13x)
 
 ## Code
 The code in this repository is used to get the dataset described above. The code is written in Python 2.7.10 and outputs a CSV per data type. Please add your own API key.
